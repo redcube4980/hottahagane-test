@@ -1,0 +1,101 @@
+@charset "utf-8";
+
+/* topics.css
+------------------------------------------ */
+
+/* BODY
+------------------------------------------ */
+#BODY .detailArea .titleSec{border-bottom:1px solid #808080;}
+#BODY .detailArea p.pageTop{margin:10px 10px 0 0;text-align:right;}
+#BODY .detailArea p.pageTop span{padding-left:8px;font-size:95%;background:url(/common/img/icon_link_anchor_top.gif) no-repeat 0 2px;}
+
+
+
+
+/* listSec
+------------------------------------------ */
+#BODY .detailArea .listSec {
+    width: auto;
+    margin: 10px auto 0 auto;
+    max-width: 800px;
+}
+#BODY .detailArea .listSec ul {
+    margin: 30px auto;
+    border-top: 1px dotted #fff;
+    padding-top: 10px;
+}
+#BODY .detailArea .listSec ul li {
+    position: relative;
+    margin-bottom: 10px;
+    border-bottom: 1px dotted #fff;
+    padding-bottom: 15px;
+}
+#BODY .detailArea .listSec ul li dl {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+#BODY .detailArea .listSec ul li dl dt time{
+    margin: 0 15px 0 0;
+}
+#BODY .detailArea .listSec ul li dl dt .category a {
+    background-color: #b60b0b;
+    width: auto;
+    display: block;
+    min-width: 80px;
+    text-align: center;
+    font-size: 14px;
+    text-decoration: none;
+    padding: 2px 5px;
+    color: #fff;
+    border-radius: 5px;
+}
+#BODY .detailArea .listSec ul li dl dt .category a.topics {
+    background-color: red;
+    color: #fff;
+}
+#BODY .detailArea .listSec ul li dl dt .category a.magazine  {
+    background-color: #0d69cb;
+}
+#BODY .detailArea .listSec ul li dl dt {
+    font-weight: normal;
+    font-size: 16px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+#BODY .detailArea .listSec ul li dl dd{
+    margin-left:30px;
+    font-size: 16px;
+}
+.pagination {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    font-size: 13px;
+    text-align: center;
+    margin: 20px auto 30px;
+    float: left;
+    width: 100%;
+    flex-flow: row wrap;
+}
+.pagination span, .pagination a {
+    display: block;
+    width: auto;
+    margin: 0 4px 10px;
+    padding: 6px 10px;
+    border: 1px solid #9acaff;
+    background-color: transparent;
+    text-decoration: none;
+    text-align: center;
+    line-height: 16px;
+    color: #9acaff;
+}
+.pagination a:hover, .pagination .current {
+    color: #000;
+    border-color: #9acaff;
+    background-color: #9acaff;
+}

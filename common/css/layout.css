@@ -1,0 +1,151 @@
+@charset "utf-8";
+
+/* layout.css
+------------------------------------------ */
+
+/* body
+------------------------------------------ */
+#HEADER p.logo a,
+#FOOTER p.copyright{display:block;height:100%;overflow:hidden;text-indent:-9999px;}
+
+
+
+/* TOP
+------------------------------------------ */
+#TOP{width:950px;margin:0 auto;padding:0 5px 0 0;background:url(../img/bg_top.gif) repeat-y right top;}
+@media print{#TOP{width:951px;margin:0 auto;padding:0 5px 0 0;background:url(../img/bg_top.gif) repeat-y right top;}}
+
+
+
+
+/* HEADER
+------------------------------------------ */
+#HEADER .titleArea{position:relative;width:950px;height:58px;background:url(../img/bg_header.jpg) no-repeat left top;}
+#HEADER .titleArea p.logo{position:absolute;width:211px;height:28px;background:url(../img/logo.gif) no-repeat left top;left:52px;top:15px;}
+#HEADER .titleArea p.contact{position:absolute;width:220px;text-align:right;left:640px;top:25px;z-index:6000;}
+#HEADER .titleArea p.contact span{padding-left:8px;background:url(../img/icon_link.gif) no-repeat 0 0.45em;}
+
+
+/* gNavi
+------------------------------------------ */
+#HEADER #gNavi{position:relative;z-index:100;zoom:1;}
+#HEADER #gNavi ul li,
+#HEADER #gNavi ul li a,
+#HEADER #gNavi ul li dl dt,
+#HEADER #gNavi ul li dl dt.over{display:block;float:left;width:190px;height:35px;text-indent:-9999px;}
+#HEADER #gNavi ul li#gNaviTopics,
+#HEADER #gNavi ul li#gNaviTopics a,
+#HEADER #gNavi ul li#gNaviRecruit,
+#HEADER #gNavi ul li#gNaviRecruit a,
+#HEADER #gNavi ul li#gNaviNetwork,
+#HEADER #gNavi ul li#gNaviNetwork a{overflow:hidden;background:url(../img/gNavi/btn_category.gif) no-repeat left top;}
+#HEADER #gNavi ul li#gNaviTopics a:hover,
+#HEADER #gNavi ul li#gNaviRecruit a:hover,
+#HEADER #gNavi ul li#gNaviNetwork a:hover{background:none;}
+#HEADER #gNavi ul li{position:relative;}
+#HEADER #gNavi ul li a{float:none;}
+#HEADER #gNavi ul li dl dt{background:url(../img/gNavi/btn_category.gif) no-repeat left top;}
+
+#HEADER #gNavi ul li dl dd{position:absolute;left:0;top:35px;display:none;padding:6px 10px;background:url(../img/gNavi/bg_pull-down.gif) no-repeat left bottom;}
+#HEADER #gNavi ul li dl dd ul li,
+#HEADER #gNavi ul li dl dd ul li a{cursor:pointer;float:none;overflow:hidden;background:none;width:170px;height:23px;}
+
+#HEADER #gNavi ul li dl dd ul li a{display:block;padding:4px 15px 0;}
+#HEADER #gNavi ul li#gNaviProduct dl dd ul li a{padding:4px 15px 0;width:140px;}
+#HEADER #gNavi ul li#gNaviCorporate dl dd ul li a{padding:4px 56px 0 55px;width:59px;}
+
+#HEADER #gNavi ul li.over dl dd ul li a span{display:block;zoom:1;background-position:left top;background-repeat:no-repeat;}
+#IE06 #HEADER #gNavi ul li.over dl dd ul li a span{display:block;background:none!important;zoom:1;}
+
+#HEADER #gNavi ul li#gNaviProduct.over dl dd ul li.first a span{background-image:url(../img/gNavi/btn_product_sncm-hadayaki.png);}
+#IE06 #HEADER #gNavi ul li#gNaviProduct.over dl dd ul li.first a span{filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/common/img/gNavi/btn_product_sncm-hadayaki.png');}
+#HEADER #gNavi ul li#gNaviProduct.over dl dd ul li.num2 a span{background-image:url(../img/gNavi/btn_product_sncm-strong.png);}
+#IE06 #HEADER #gNavi ul li#gNaviProduct.over dl dd ul li.num2 a span{filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/common/img/gNavi/btn_product_sncm-strong.png');}
+#HEADER #gNavi ul li#gNaviProduct.over dl dd ul li.num3 a span{background-image:url(../img/gNavi/btn_product_snc-marubou.png);}
+#IE06 #HEADER #gNavi ul li#gNaviProduct.over dl dd ul li.num3 a span{filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/common/img/gNavi/btn_product_snc-marubou.png');}
+#HEADER #gNavi ul li#gNaviProduct.over dl dd ul li.num4 a span{background-image:url(../img/gNavi/btn_product_scm-marubou.png);}
+#IE06 #HEADER #gNavi ul li#gNaviProduct.over dl dd ul li.num4 a span{filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/common/img/gNavi/btn_product_scm-marubou.png');}
+#HEADER #gNavi ul li#gNaviProduct.over dl dd ul li.num5 a span{background-image:url(../img/gNavi/btn_product_snb-marubou.png);}
+#IE06 #HEADER #gNavi ul li#gNaviProduct.over dl dd ul li.num5 a span{filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/common/img/gNavi/btn_product_snb-marubou.png');}
+#HEADER #gNavi ul li#gNaviProduct.over dl dd ul li.num6 a span{background-image:url(../img/gNavi/btn_product_dense-bar.png);}
+#IE06 #HEADER #gNavi ul li#gNaviProduct.over dl dd ul li.num6 a span{filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/common/img/gNavi/btn_product_dense-bar.png');}
+#HEADER #gNavi ul li#gNaviProduct.over dl dd ul li.num7 a span{background-image:url(../img/gNavi/btn_product_stainless1.png);}
+#IE06 #HEADER #gNavi ul li#gNaviProduct.over dl dd ul li.num7 a span{filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/common/img/gNavi/btn_product_stainless1.png');}
+#HEADER #gNavi ul li#gNaviProduct.over dl dd ul li.last a span{background-image:url(../img/gNavi/btn_product_kakou1.png);}
+#IE06 #HEADER #gNavi ul li#gNaviProduct.over dl dd ul li.last a span{filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/common/img/gNavi/btn_product_kakou1.png');}
+
+#HEADER #gNavi ul li#gNaviCorporate.over dl dd ul li.first a span{background-image:url(../img/gNavi/btn_corporate_history.png);}
+#IE06 #HEADER #gNavi ul li#gNaviCorporate.over dl dd ul li.first a span{filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/common/img/gNavi/btn_corporate_history.png');}
+#HEADER #gNavi ul li#gNaviCorporate.over dl dd ul li.num2 a span{background-image:url(../img/gNavi/btn_corporate_about.png);}
+#IE06 #HEADER #gNavi ul li#gNaviCorporate.over dl dd ul li.num2 a span{filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/common/img/gNavi/btn_corporate_about.png');}
+#HEADER #gNavi ul li#gNaviCorporate.over dl dd ul li.num3 a span{background-image:url(../img/gNavi/btn_corporate_officers.png);}
+#IE06 #HEADER #gNavi ul li#gNaviCorporate.over dl dd ul li.num3 a span{filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/common/img/gNavi/btn_corporate_officers.png');}
+#HEADER #gNavi ul li#gNaviCorporate.over dl dd ul li.num4 a span{background-image:url(../img/gNavi/btn_corporate_facilities.png);}
+#IE06 #HEADER #gNavi ul li#gNaviCorporate.over dl dd ul li.num4 a span{filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/common/img/gNavi/btn_corporate_facilities.png');}
+#HEADER #gNavi ul li#gNaviCorporate.over dl dd ul li.last a span{background-image:url(../img/gNavi/btn_corporate_notice.png);}
+#IE06 #HEADER #gNavi ul li#gNaviCorporate.over dl dd ul li.last a span{filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/common/img/gNavi/btn_corporate_notice.png');}
+
+#HEADER #gNavi ul li dl dd ul li a:hover{background:url(../img/gNavi/bg_button.png) no-repeat left top;}
+#IE06 #HEADER #gNavi ul li dl dd ul li a:hover{background:none;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/common/img/gNavi/bg_button.png');}
+
+#HEADER #gNavi ul li#gNaviProduct dl dt{background-position:0px 0px;}
+#HEADER #gNavi ul li#gNaviProduct.over dl dt{background-position:-190px 0px;}
+#HEADER #gNavi ul li#gNaviCorporate dl dt{background-position:0px -35px;}
+#HEADER #gNavi ul li#gNaviCorporate.over dl dt{background-position:-190px -35px;}
+#HEADER #gNavi ul li#gNaviTopics{background-position:-190px -70px;}
+#HEADER #gNavi ul li#gNaviTopics a{background-position:0px -70px;}
+#HEADER #gNavi ul li#gNaviRecruit{background-position:-190px -105px;}
+#HEADER #gNavi ul li#gNaviRecruit a{background-position:0px -105px;}
+#HEADER #gNavi ul li#gNaviNetwork{background-position:-190px -140px;}
+#HEADER #gNavi ul li#gNaviNetwork a{background-position:0px -140px;}
+
+
+
+
+/* MENU
+------------------------------------------ */
+
+#MENU{float:right;width:243px;}
+#MENU h2.title,
+#MENU ul li,
+#MENU ul li a,
+#MENU ul li a span{display:block;overflow:hidden;text-indent:-9999px;height:100%;}
+#IE06 #MENU h2.title,
+#IE06 #MENU ul li a.over,
+#IE06 #MENU ul li a.over span{background:none;}
+
+#MENU h2.title{margin:17px 0 0 78px;}
+
+#MENU ul{margin-top:13px;}
+#MENU ul li{position:relative;width:243px;height:40px;background-position:left top;background-repeat:no-repeat;cursor:pointer;}
+#MENU ul li a{padding:21px 0 0 3px;height:19px;}
+#IE06 #MENU ul li{background:none;}
+
+
+
+
+/* FOOTER
+------------------------------------------ */
+#FOOTER{margin-top:20px;}
+#FOOTER .linkArea{padding:15px 113px;background:url(../img/bg_footer_link.gif) #404040 repeat-y right top;}
+#FOOTER .linkArea ul li{float:left;white-space:nowrap;margin-right:30px;padding-left:8px;background:url(../img/icon_link.gif) no-repeat 0 0.45em;}
+#FOOTER .linkArea dl{position:relative;margin:0px 0 0 8px;}
+#FOOTER .linkArea dl dt{position:absolute;padding-right:0.7em;border-right:1px solid #ffffff;left:0px;top:5px;line-height:1.05;}
+#FOOTER .linkArea dl dd{margin-left:4.7em;padding-left:12px;}
+#FOOTER .linkArea dl dd ul li{margin:5px 10px 0 0;line-height:1.05;background-position:0 0.3em;}
+
+
+/* addressArea */
+#FOOTER .addressArea{margin-top:10px;padding:0 10px 12px 0;text-align:right;}
+#FOOTER .addressArea address p{display:inline;margin-left:20px;}
+
+
+/* copyArea */
+#FOOTER .copyArea{padding:10px 6px 0 0;background:#000000;border-top:1px solid #808080;}
+#FOOTER p.copyright{float:right;width:310px;height:9px;marginwidth:310px;height:9px;background:url(../img/copyright.gif) no-repeat left top;}
+
+
+/* 2014.05.20 direct1 */
+#MAIN .mb_10{margin-bottom:10px;}
+#MAIN .mt_10{margin-top:10px;}
+

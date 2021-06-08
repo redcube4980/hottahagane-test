@@ -1,0 +1,50 @@
+@charset "utf-8";
+
+/* corporate.css
+------------------------------------------ */
+
+/* MAIN
+------------------------------------------ */
+#MAIN{float:left;position:relative;width:690px;}
+
+
+/* titleArea
+------------------------------------------ */
+#MAIN .titleArea{border-bottom:1px solid #808080;}
+#MAIN .titleArea h1{font-size:0;line-height:0;}
+
+
+
+
+/* detailArea
+------------------------------------------ */
+#MAIN .detailArea{margin-top:10px;padding:0 0 0 10px;}
+#MAIN .detailArea ul{margin-top:20px;border-top:1px solid #404040;}
+#MAIN .detailArea ul li{border-bottom:1px solid #404040;}
+#MAIN .detailArea ul li dl dt{float:left;width:154px;padding:8px;text-align:center;background-color:#9acaff;color:#444444;}
+#MAIN .detailArea ul li dl dd{float:right;width:494px;padding:8px;color:#aaaaaa;}
+
+#MAIN .detailArea p.pageTop{margin-top:10px;text-align:right;}
+#MAIN .detailArea p.pageTop span{padding-left:8px;font-size:95%;background:url(../../common/img/icon_link_anchor_top.gif) no-repeat 0 2px;}
+
+
+
+
+/* MENU
+------------------------------------------ */
+#MENU h2.title{width:92px;height:26px;margin:17px 0 0 78px;background:url(../../img/corporate/head_corporate.png) no-repeat left top;}
+#IE06 #MENU h2.title{filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/img/corporate/head_corporate.png');}
+
+#MENU ul li a.over span{background:url(../../img/corporate/parts_corporate_bg-over.png) no-repeat left top;}
+#IE06 #MENU ul li a.over span{filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/img/corporate/parts_corporate_bg-over.png');}
+
+#MENU ul li.first{background-image:url(../../img/corporate/btn_corporate_about.png);}
+#IE06 #MENU ul li.first{filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/img/corporate/btn_corporate_about.png');}
+#MENU ul li.num2{background-image:url(../../img/corporate/btn_corporate_history.png);}
+#IE06 #MENU ul li.num2{filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/img/corporate/btn_corporate_history.png');}
+#MENU ul li.num3{background-image:url(../../img/corporate/btn_corporate_officers.png);}
+#IE06 #MENU ul li.num3{filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/img/corporate/btn_corporate_officers.png');}
+#MENU ul li.num4{background-image:url(../../img/corporate/btn_corporate_facilities.png);}
+#IE06 #MENU ul li.num4{filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/img/corporate/btn_corporate_facilities.png');}
+#MENU ul li.last{background-image:url(../../img/corporate/btn_corporate_notice.jpg);}
+#IE06 #MENU ul li.last{filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/img/corporate/btn_corporate_notice.jpg);}

@@ -1,0 +1,47 @@
+@charset "utf-8";
+
+/* facilities.css
+------------------------------------------ */
+
+/* detailArea
+------------------------------------------ */
+#MAIN .detailArea p.figure{text-align:center;}
+#MAIN .detailArea ul,
+#MAIN .detailArea ul li{margin:0;border:0;}
+
+
+
+
+/* followingSec
+------------------------------------------ */
+#MAIN .followingSec ul{text-align:right;}
+#MAIN .followingSec ul li{display:inline;margin-left:20px;padding-left:8px;background:url(/common/img/icon_link.gif) no-repeat 0 0.45em;font-size:115%;font-weight:bold;}
+
+
+
+
+/* boxTypeA01
+------------------------------------------ */
+#MAIN .boxTypeA01{margin:20px 0 0 41px;}
+#MAIN .boxTypeA01 h2{font-size:0;line-height:0;}
+
+#MAIN .boxTypeA01 ul.photo{margin-top:8px;}
+#MAIN .boxTypeA01 ul.photo li{float:left;width:310px;margin-right:19px;font-size:0;line-height:0;}
+#MAIN .boxTypeA01 ul.photo li.last{margin:0;}
+
+#MAIN .boxTypeA01 dl.cutting{position:relative;margin-top:15px;padding-left:74px;zoom:1;}
+#MAIN .boxTypeA01 dl.cutting dt.head{position:absolute;width:64px;font-size:0;line-height:0;left:0;top:0;zoom:1;}
+#MAIN .boxTypeA01 dl.cutting dd{width:230px;padding-left:10px;border-left:2px solid #9acaff;}
+#MAIN .boxTypeA01 dl.cutting dd dl{margin-top:15px;}
+#MAIN .boxTypeA01 dl.cutting dd dl.first{margin:0;}
+#MAIN .boxTypeA01 dl.cutting dd dl dt{font-weight:bold;}
+#MAIN .boxTypeA01 dl.cutting dd dl dt span{color:#9acaff;}
+#MAIN .boxTypeA01 dl.cutting dd dl dd{width:200px;padding-left:1em;border:0;}
+#MAIN .boxTypeA01 dl.cutting dd dl dd ul{}
+#MAIN .boxTypeA01 dl.cutting dd dl dd ul li{position:relative;padding-right:2em;zoom:1;}
+#MAIN .boxTypeA01 dl.cutting dd dl dd ul li span{position:absolute;right:0;bottom:0;zoom:1;}
+
+
+
+
+

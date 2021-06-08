@@ -1,0 +1,60 @@
+<div id="FOOTER">
+<div class="linkArea">
+<ul class="footNavi">
+<li><a href="/">堀田ハガネトップ</a></li>
+<li><a href="/topics.shtml">TOPICS</a></li>
+<li><a href="/recruit.shtml">リクルート</a></li>
+<li><a href="/contact/">お問い合わせ</a></li>
+<li><a href="/network.shtml">ネットワーク</a></li>
+<li><a href="/company-song.shtml">Company Song（社歌）</a></li>
+</ul>
+
+<dl class="product">
+<dt>製品情報</dt>
+<dd>
+<ul>
+<li><a href="/product/sncm-hadayaki01.shtml">SNCM鋼【肌焼鋼】</a></li>
+<li><a href="/product/sncm-strong.shtml">SNCM鋼【強靭鋼】</a></li>
+<li><a href="/product/snc-marubou.shtml">SNC鋼 丸棒</a></li>
+<li><a href="/product/scm-marubou.shtml">SCM鋼 丸棒</a></li>
+<li><a href="/product/snb-marubou.shtml">SNB鋼 丸棒</a></li>
+<li><a href="/product/dense-bar.shtml">デンスバー</a></li>
+<li><a href="/product/stainless.shtml">ステンレス鋼</a></li>
+<li><a href="/product/kakou.shtml">加工品</a></li>
+</ul>
+</dd>
+</dl>
+
+<dl class="corporate">
+<dt>企業情報</dt>
+<dd>
+<ul>
+<li><a href="/corporate/history.shtml">沿革</a></li>
+<li><a href="/corporate/about.shtml">概要</a></li>
+<li><a href="/corporate/officers.shtml">役員</a></li>
+<li><a href="/corporate/facilities.shtml">設備</a></li>
+<li><a href="/corporate/notice.shtml">電子公告</a></li>
+</ul>
+</dd>
+</dl>
+<!-- /linkArea --></div>
+
+
+
+
+<div class="addressArea">
+<address class="noSpace hCard">
+<p class="fn">株式会社　堀田ハガネ</p>
+<p class="adr">〒592-8331　大阪府堺市西区築港新町3丁19-2</p>
+<p class="tel">TEL 072-244-0011</p>
+<p class="fax">FAX 072-244-0330</p>
+</address>
+<!-- /addressArea --></div>
+
+
+
+
+<div class="copyArea tChip">
+<p class="copyright">Copyright &copy; 2011 HOTTA HAGANE CO., LTD. ALL RIGHTS RESERVED.</p>
+<!-- /copyArea --></div>
+<!-- /FOOTER --></div>

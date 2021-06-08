@@ -1,0 +1,18 @@
+@charset "utf-8";
+
+/* about.css
+------------------------------------------ */
+
+/* MAIN
+------------------------------------------ */
+#MAIN{float:left;position:relative;width:690px;}
+#MAIN .detailArea p.pageTop{margin-top:40px;}
+
+
+
+
+/* detailArea
+------------------------------------------ */
+/* movieSec */
+#MAIN .detailArea .movieSec{margin-top:20px;}
+#MAIN .detailArea .movieSec p{margin-left:290px;font-size:0;line-height:0;}

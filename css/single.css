@@ -1,0 +1,74 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#MAIN {
+    float: left;
+    position: relative;
+    width: 690px;
+}
+article {
+   margin: 20px 0 0;
+}
+article time {
+    font-size: 18px;
+    margin: 0 0 10px;
+}
+article h1{
+   font-size: 21px;
+   font-weight: normal;
+   margin: 0 0 20px;
+}
+article p{
+   font-size: 16px; 
+   line-height: 2;
+}
+#archive {
+    display: block;
+    height: 100%;
+    float: right;
+    width: 233px;
+    margin: 20px 10px 30px 0;
+}
+.title.tChip {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+#financial-results {
+    margin-bottom: 30px;
+}
+#archive h3 {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+#archive ul{
+    
+}
+#archive ul li {
+    margin: 0 0 10px;
+}
+.pagination {
+    margin: 20px auto 30px;
+    position: relative;
+    display: flex;
+    width: 100%;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    font-size: 14px;
+}
+.pagination span, .pagination a {
+    display: block;
+    width: auto;
+    margin: 0 4px 10px;
+    padding: 6px 10px;
+    border: 1px solid #9acaff;
+    background-color: transparent;
+    text-decoration: none;
+    text-align: center;
+    line-height: 16px;
+    color: #9acaff;
+}
+.pagination a:hover, .pagination .current {
+    color: #000;
+    border-color: #9acaff;
+    background-color: #9acaff;
+}

@@ -1,0 +1,33 @@
+@charset "utf-8";
+
+/* notice.css
+------------------------------------------ */
+
+.ttl_style011 {
+    border-bottom: 2px solid #0062b2;
+    margin-bottom: 15px;
+    font-size: 116%;
+    padding-left: 5px;
+}
+
+
+.mb30 {
+    margin-bottom: 30px !important;
+}
+
+table.tbl_style01 {
+  width: 100%;  
+} 
+td {
+    font-style: normal;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+.tbl_style01 td {
+    vertical-align: top;
+    padding: 10px 0;
+    border-bottom: 1px dotted #ccc;
+}
+

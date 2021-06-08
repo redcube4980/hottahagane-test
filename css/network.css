@@ -1,0 +1,18 @@
+@charset "utf-8";
+
+/* network.css
+------------------------------------------ */
+
+/* BODY
+------------------------------------------ */
+#BODY .detailArea .titleSec{border-bottom:1px solid #808080;}
+#BODY .detailArea p.pageTop{margin:10px 10px 0 0;text-align:right;}
+#BODY .detailArea p.pageTop span{padding-left:8px;font-size:95%;background:url(/common/img/icon_link_anchor_top.gif) no-repeat 0 2px;}
+
+
+
+
+/* listSec
+------------------------------------------ */
+#BODY .detailArea .listSec{width:200px;margin:10px auto 0 auto;}
+#BODY .detailArea .listSec ul li{padding-left:11px;background:url(/common/img/icon_link_popup.gif) no-repeat 0px 5px;}

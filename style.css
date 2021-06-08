@@ -1,0 +1,40 @@
+@charset "utf-8";
+
+/* base.css
+------------------------------------------ */
+
+/* Union
+------------------------------------------ */
+html{overflow-y:scroll;}
+body{background-color:#000000;}
+body,input,select,textarea{font-family:"ＭＳ Ｐゴシック","Osaka","ヒラギノ角ゴ Pro W3",Arial;}
+body,div,pre,p,blockquote,h1,h2,h3,h4,h5,h6,ul,ol,li,dl,dt,dd,form,fieldset,input,textarea,th,td,address,table{margin:0;padding:0;}
+body,p,h1,h2,h3,h4,h5,h6,li,th,td,dt,dd,pre,legend,input,select,textarea{font-size:12px;line-height:1.4;text-align:left;color:#ffffff;}
+table{border:none;border-spacing:0;border-collapse:collapse;}
+img,a img,fieldset{border:none;}
+li{list-style-type:none;}
+address,em{font-style:normal;}
+h1,h2,h3,h4,h5,h6,strong{font-weight:bold;}
+sup{vertical-align:top;}
+a,a:link,a:visited{color:#9acaff;text-decoration:underline;}
+a:hover,a:active{color:#5e7a9a; text-decoration:underline;}
+
+
+
+
+/* IE Font Fix
+------------------------------------------ */
+/*\*/ *html body{font-size:75%;} /**/
+*:first-child+html body{font-size:75%;}
+#IE08{font-size:75%;}
+
+/*\*/ *html p,*html h1,*html h2,*html h3,*html h4,*html h5,*html h6,*html li,*html table,*html th,*html td,*html dt,*html dd,*html pre,*html legend{font-size:100%;} /**/
+*:first-child+html p,*:first-child+html h1,*:first-child+html h2,*:first-child+html h3,*:first-child+html h4,*:first-child+html h5,*:first-child+html h6,*:first-child+html li,*:first-child+html table,*:first-child+html th,*:first-child+html td,*:first-child+html dt,*:first-child+html dd,*:first-child+html pre,*:first-child+html legend{font-size:100%;}
+#IE08 p,#IE08 h1,#IE08 h2,#IE08 h3,#IE08 h4,#IE08 h5,#IE08 h6,#IE08 li,#IE08 table,#IE08 th,#IE08 td,#IE08 dt,#IE08 dd,#IE08 pre,#IE08 legend{font-size:100%;}
+
+
+
+
+/* Print View Fix
+------------------------------------------ */
+@media print{#IE06{zoom:65%;}}

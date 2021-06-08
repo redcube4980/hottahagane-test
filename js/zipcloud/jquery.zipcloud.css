@@ -1,0 +1,19 @@
+/* ---------- ZipCloud CSS Setting ---------- */
+.zipcloud_selection_div {
+	width:360px;
+	border:1px solid #000000;
+	box-sizing: border-box;
+	background-color:#ffffff;
+	position: absolute;
+	display: none;
+}
+
+.zipcloud_address_div {
+	width: 360px;
+	padding: 3px;
+	border-bottom:1px solid #444444;
+	box-sizing: border-box;
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 1.3;
+}

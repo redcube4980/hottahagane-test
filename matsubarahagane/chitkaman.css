@@ -1,0 +1,22 @@
+@charset "utf-8";
+/* CSS Document */
+
+#container {
+	width: 80%;
+	height: auto;
+	max-width: 2560px;
+	min-width: 480px;
+	padding: 40px;
+	box-sizing: border-box;
+}
+
+#contImage {
+	width: 60%;
+	height: auto;
+	float: left;
+}
+#contProfile {
+	width: 40%;
+	height: auto;
+	float: left;
+}

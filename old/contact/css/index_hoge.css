@@ -1,0 +1,14 @@
+@charset "utf-8";
+
+/* index.css
+------------------------------------------ */
+
+/* titleArea
+------------------------------------------ */
+#BODY{padding-right:10px;}
+#BODY p{padding-left:10px;}
+#BODY p.btnHome{margin-top:35px;padding:0;}
+#BODY p.btnHome a{display:block;width:246px;height:41px;margin:0 auto 0 auto;background:url(../img/btn_home_n.png) no-repeat left top;font-size:0;line-height:0;text-indent:-9999px;zoom:1;}
+#BODY p.btnHome a:hover{background-image:url(../img/btn_home_o.png);}
+#IE06 #BODY p.btnHome a{background-image:none;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/contact/img/btn_home_n.png');cursor:pointer;}
+#IE06 #BODY p.btnHome a:hover{filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/contact/img/btn_home_o.png');}

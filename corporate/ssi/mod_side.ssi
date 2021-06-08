@@ -1,0 +1,11 @@
+<div id="MENU">
+<h2 class="title tChip">企業情報</h2>
+
+<ul id="subMenu" class="tChip nthChild">
+<li><a href="/corporate/history.shtml"><span>沿革</span></a></li>
+<li><a href="/corporate/about.shtml"><span>概要</span></a></li>
+<li><a href="/corporate/officers.shtml"><span>役員</span></a></li>
+<li><a href="/corporate/facilities.shtml"><span>設備</span></a></li>
+<li><a href="/corporate/notice.shtml"><span>電子公告</span></a></li>
+</ul>
+<!-- /MENU --></div>

@@ -1,0 +1,64 @@
+@charset "utf-8";
+
+/* recruit.css
+------------------------------------------ */
+
+/* BODY
+------------------------------------------ */
+#BODY{padding-right:10px;}
+#BODY .detailArea .titleSec,
+#BODY .detailArea .aboutHottaSec .titleSec{border-bottom:1px solid #808080;}
+#BODY .detailArea .titleSec h1,
+#BODY .detailArea .aboutHottaSec .titleSec h2{font-size:0;line-height:0;}
+#BODY .detailArea p.pageTop{margin-top:10px;text-align:right;}
+#BODY .detailArea p.pageTop span{padding-left:8px;font-size:95%;background:url(/common/img/icon_link_anchor_top.gif) no-repeat 0 2px;}
+
+
+/* contactSec
+------------------------------------------ */
+#BODY .contactSec{margin-top:10px;padding-left:10px;}
+#BODY .contactSec dl dd{margin-top:10px;text-align:center;font-size:0;line-height:0;}
+
+
+
+/* aboutHootaArea
+------------------------------------------ */
+#BODY .aboutHottaSec .titleSec{position:relative;margin-top:50px;zoom:1;}
+#BODY .aboutHottaSec .titleSec p.pdf{position:absolute;left:784px;top:13px;zoom:1;}
+#BODY .aboutHottaSec .titleSec p.pdf,
+#BODY .aboutHottaSec .titleSec p.pdf a{display:block;overflow:hidden;width:141px;height:28px;text-indent:-9999px;}
+#BODY .aboutHottaSec .titleSec p.pdf a{background:url(/common/img/btn_pdf_n.png) no-repeat left top;cursor:pointer;}
+#BODY .aboutHottaSec .titleSec p.pdf a:hover{background-image:url(/common/img/btn_pdf_o.png);}
+#IE06 #BODY .aboutHottaSec .titleSec p.pdf a{background:none;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/common/img/btn_pdf_n.png');}
+#IE06 #BODY .aboutHottaSec .titleSec p.pdf a:hover{background:none;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/common/img/btn_pdf_o.png');}
+
+
+/* movieSec */ 
+#BODY .aboutHottaSec .movieBox{margin-top:20px;}
+#BODY .aboutHottaSec .movieBox p{width:640px;margin:0 auto;}
+
+
+
+
+/* MENU
+------------------------------------------ */
+#MENU h2.title{width:91px;height:26px;background:url(../img/head_product.png) no-repeat left top;}
+#IE06 #MENU h2.title{filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/product/img/head_product.png');}
+
+#MENU ul li a.over span{background:url(../img/parts_product_bg-over.png) no-repeat left top;}
+#IE06 #MENU ul li a.over span{filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/product/img/parts_product_bg-over.png');}
+
+#MENU ul li.first{background-image:url(../img/btn_product_sncm-hadayaki.png);}
+#IE06 #MENU ul li.first{filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/product/img/btn_product_sncm-hadayaki.png');}
+#MENU ul li.num2{background-image:url(../img/btn_product_sncm-strong.png);}
+#IE06 #MENU ul li.num2{filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/product/img/btn_product_sncm-strong.png');}
+#MENU ul li.num3{background-image:url(../img/btn_product_snc-marubou.png);}
+#IE06 #MENU ul li.num3{filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/product/img/btn_product_snc-marubou.png');}
+#MENU ul li.num4{background-image:url(../img/btn_product_scm-marubou.png);}
+#IE06 #MENU ul li.num4{filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/product/img/btn_product_scm-marubou.png');}
+#MENU ul li.num5{background-image:url(../img/btn_product_snb-marubou.png);}
+#IE06 #MENU ul li.num5{filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/product/img/btn_product_snb-marubou.png');}
+#MENU ul li.num6{background-image:url(../img/btn_product_dense-bar.png);}
+#IE06 #MENU ul li.num6{filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/product/img/btn_product_dense-bar.png');}
+#MENU ul li.last{background-image:url(../img/btn_product_stainless.png);}
+#IE06 #MENU ul li.last{filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/product/img/btn_product_stainless.png');}

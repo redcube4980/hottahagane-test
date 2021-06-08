@@ -1,0 +1,131 @@
+<link rel="stylesheet" href="/colorbox/colorbox.css" />
+<link rel="stylesheet" href="/css/gun.css" type="text/css" media="screen,print">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<script src="/colorbox/jquery.colorbox.js"></script>
+<script type="text/javascript" src="/js/jquery.bxslider.js"></script>
+<script type="text/javascript">
+ $(document).ready(function(){
+  var slider = $('.bxslider').bxSlider({
+  auto: true,
+mode: 'fade',
+speed:1000,
+pause:3000,
+  onSlideAfter: function($slideElement, oldIndex, newIndex){
+	slider.startAuto();
+  }
+});
+  });
+</script>
+<script>
+$(document).ready(function(){
+//Examples of how to assign the ColorBox event to elements
+$(".inline").colorbox({inline:true, contentWidth:"880px", fitContentsHeight:"false"});
+});
+</script>
+
+
+<div id="HEADER">
+<div class="titleArea">
+	<p class="logo tChip"><a href="/">HOTTA HAGANE CO., LTD</a></p>
+	<p class="contact"><span><a href="/contact/">お問い合わせ</a></span></p>
+	<p class="charactor"><a class='inline' href="#inline_content"><img class="autoWidth" src="/common/img/movie_button.gif" alt="【踊る】ガンニッケルマン ムービー公開中" /></a></p>
+	<!--<p class="caractor"><a class='inline' href="#inline_content"></a></p>-->
+<!-- /titleArea --></div>
+
+
+
+<!-- ▼▼▼This contains the hidden content for inline calls▼▼▼-->
+<div style='display:none;'>
+	<div id='inline_content' style='padding:10px; background:#fff;'>
+		<div id="gun_bg">
+			<div id="gun_tit">無敵鋼人！ガンニッケルマン</div>
+			<div id="gun_prof">
+				<div class="gun_01">
+					<div class="bl_txt fl">身　長　　</div>129.3㎝
+					<br clear="all"><br />
+					<div class="bl_txt fl">体　重　　</div>607.6㎏
+					<br clear="all"><br />
+					<div class="bl_txt fl">素　材　　</div>含ニッケル合金製(SNCM/SNC/SCM/SNB/ステンレス)
+					<br clear="all"><br />
+					<div class="bl_txt fl">生年月日　</div>2003年4月17日
+				</div>
+				<br clear="all"><br />
+				<div class="bl_txt"><span class="txt_20">●</span>性格</div>
+				どんな苛酷な状況にも耐える鋼の精神と肉体の持ち主。<br />
+				強くて頼れる存在だが、繊細な一面も。世話好きで<br />
+				ちょっぴりおせっかい。好きな言葉は「任せてよかった」<br /><br />
+				<div class="bl_txt"><span class="txt_20">●</span>出身地</div>
+				大阪市西区九条 町工場<br />
+				『スクラップの山の中に埋もれている僕を<br />
+				堀田社長が拾ってくれたんだ！』<br /><br />
+				<div class="bl_txt"><span class="txt_20">●</span>特技</div>
+				『いろんなものに変身するのが大の得意！<br />
+				身の周りのボルトやナット、歯車などに変身して困った人を助けに行くよ！』
+			</div>
+			<div id="gun_print"><a href="/colorbox/images/gun/gun.pdf" target="_blank">印刷する(PDF)</a></div>
+			<div id="gun_foot">含ニッケル鋼のスペシャリスト、堀田ハガネのヒミツをガンニッケルマンが大解剖！！乞うご期待！</div>
+		</div>
+		<div id="gun_movie" class="clearfix">
+			<h4>行け！ガンニッケルマン ～ロボットダンス編～</h4>
+			<div id="contYouTube">
+				<iframe id="youtube2" src="https://www.youtube.com/embed/SkV1p1uo7kM?rel=0&modestbranding=0&showinfo=0&fs=0&controls=1&autohide=1" frameborder="0" width="560" height="315" allowfullscreen></iframe>
+				<p>堀田ハガネのCompany Song（社歌）に合わせてガンニッケルマンが踊ります。<span>GOODボタン</span>を押してください。</p>
+			</div>
+<!--
+			<h4>行け！ガンニッケルマン ～戦うサラリーマン編～</h4>
+			<div id="contYouTube">
+				<iframe id="youtube2" src="https://www.youtube.com/embed/R6Nl1xC6asA?rel=0&modestbranding=0&showinfo=0&fs=0&controls=1&autohide=1" frameborder="0" width="560" height="315" allowfullscreen></iframe>
+				<p>Company Song（社歌）のPV別バージョン、戦うサラリーマンが主役です。</p>
+			</div>
+-->
+		</div>
+	</div>
+	
+</div>
+<!-- ▲▲▲This contains the hidden content for inline calls▲▲-->
+
+
+
+
+<div id="gNavi">
+<ul>
+<li id="gNaviProduct">
+<dl>
+<dt class="tChip">製品情報</dt>
+<dd>
+<ul class="tChip nthChild">
+<li><a href="/product/sncm-hadayaki01.shtml"><span>SNCM鋼【肌焼鋼】</span></a></li>
+<li><a href="/product/sncm-strong.shtml"><span>SNCM鋼【強靭鋼】</span></a></li>
+<li><a href="/product/snc-marubou.shtml"><span>SNC鋼 丸棒</span></a></li>
+<li><a href="/product/scm-marubou.shtml"><span>SCM鋼 丸棒</span></a></li>
+<li><a href="/product/snb-marubou.shtml"><span>SNB鋼 丸棒</span></a></li>
+<li><a href="/product/dense-bar.shtml"><span>デンスバー</span></a></li>
+<li><a href="/product/stainless.shtml"><span>ステンレス鋼</span></a></li>
+<li><a href="/product/kakou.shtml"><span>加工品</span></a></li>
+<li><a href="/product/sds.shtml"><span>安全データシート</span></a></li>
+</ul>
+</dd>
+</dl>
+</li>
+
+<li id="gNaviCorporate">
+<dl>
+<dt class="tChip">企業情報</dt>
+<dd>
+<ul class="tChip nthChild">
+<li><a href="/corporate/history.shtml"><span>沿革</span></a></li>
+<li><a href="/corporate/about.shtml"><span>概要</span></a></li>
+<li><a href="/corporate/officers.shtml"><span>役員</span></a></li>
+<li><a href="/corporate/facilities.shtml"><span>設備</span></a></li>
+<li><a href="/corporate/notice.shtml"><span>電子公告</span></a></li>
+</ul>
+</dd>
+</dl>
+</li>
+
+<li id="gNaviTopics" class="tChip"><a href="/topics.shtml">TOPICS</a></li>
+<li id="gNaviRecruit" class="tChip"><a href="/recruit.shtml">リクルート</a></li>
+<li id="gNaviNetwork" class="tChip"><a href="/network.shtml">ネットワーク</a></li>
+</ul>
+<!-- /gNavi --></div>
+<!-- /HEADER --></div>

@@ -1,0 +1,133 @@
+@charset "utf-8";
+
+/* index.css
+------------------------------------------ */
+
+/* HEADER
+------------------------------------------ */
+div.topage #HEADER .titleArea {
+	height: 98px;
+	background-image: url(../img/index/bg_header.jpg);
+}
+div.topage #HEADER .titleArea p.logo{width:352px;height:47px;background-image:url(../img/index/logo.gif);left:52px;top:25px;}
+div.topage #HEADER .titleArea p.contact {
+	left: 400px;
+	top: 40px;
+}
+div.topage #HEADER .titleArea p.contact span{padding-left:8px;background:url(../img/icon_link.gif) no-repeat 0 0.45em;}
+div.topage #HEADER .titleArea p.charactor {
+	width: 260px;
+	height: 96px;
+	margin: 1px auto 1px 680px;;
+}
+
+
+
+
+/* BODY
+------------------------------------------ */
+#BODY{margin-top:9px;}
+#BODY .leadArea p.recruit,
+#BODY .detailArea h2,
+#BODY .detailArea .productSec ul li{font-size:0;line-height:0;}
+
+
+
+
+/* leadArea
+------------------------------------------ */
+#BODY .leadArea{}
+#BODY .leadArea .movieSec{float:left;width:720px;}
+#BODY .leadArea .recruit{
+	float:right;
+	width:220px;
+	background-color: white;
+}
+#BODY .leadArea .companysong {
+    float: right;
+    width: 220px;
+	margin-top: 6px;
+	background-color: white;
+}
+#BODY .leadArea p.recruit a:hover,#BODY .leadArea p.companysong a:hover{
+	opacity: 0.7;	
+}
+
+
+/* detailArea
+------------------------------------------ */
+#BODY .detailArea{margin-top:10px;}
+
+
+/* productSec */
+#BODY .detailArea .productSec{float:left;width:488px;}
+#BODY .detailArea .productSec .box01{float:left;width:243px;}
+#BODY .detailArea .productSec .box01 h2{margin-top:6px;}
+#BODY .detailArea .productSec .box01 ul{float:none;width:243px;margin-top:16px;}
+#BODY .detailArea .productSec ul{float:right;width:245px;}
+
+#BODY .btnKakou{ clear:both; }
+#BODY .btnKakou img{ margin-top:5px; }
+
+
+/* topicsSec */
+#BODY .detailArea .topicsSec {
+    float: right;
+    width: 445px;
+    height: 480px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+#BODY .detailArea .topicsSec h2{margin-top:4px;}
+#BODY .detailArea .topicsSec ul{padding-right:10px;}
+#BODY .detailArea .topicsSec ul li.first{margin-top:10px;}
+#BODY .detailArea .topicsSec ul li dl dt{position:absolute;width:6.5em;left:0;top:0;font-weight:normal;}
+#BODY .detailArea .topicsSec ul li dl dd{margin:0 0 0 7em;}
+#BODY .detailArea .topicsSec .post-time {
+    font-size: 14px;
+    line-height: 1.6;
+    margin-right: 10px;
+}
+#BODY .detailArea .topicsSec .post-title{
+    font-size: 14px;
+    line-height: 1.6;
+}
+#BODY .detailArea .topicsSec ul li {
+    position: relative;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 5px 0 10px;
+}
+
+
+/* bannerSec */
+#BODY .detailArea .bannerSec{
+	float:left;
+	margin-top: 10px;
+	width:485px;
+}
+#BODY .detailArea .bannerSec ul {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+}
+#BODY .detailArea .bannerSec ul li {
+    position: relative;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 10px 0 0;
+    width: 50%;
+}
+#BODY .detailArea .bannerSec .post-time {
+    font-size: 14px;
+    line-height: 1.6;
+    margin-right: 10px;
+}
+#BODY .detailArea .bannerSec .post-title {
+    font-size: 14px;
+    line-height: 1.6;
+}

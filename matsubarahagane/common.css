@@ -1,0 +1,726 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	width: 100%;
+	background: url(images/wallpaper.jpg) repeat 0 0;
+}
+body.lowbg {
+	width: 100%;
+	background: url(images/wallpaperlow.jpg) repeat 0 0;
+}
+
+#wrapper {
+	width: 100%;
+	background: url(images/bandgray.png	) repeat-x;
+	background-position: 0px 100px;
+	background-size: 100% 15px;
+	background-color: rgba(255, 255, 255, 0.4);
+	z-dindex: -2;
+}
+
+#container {
+	width: 960px;
+	margin: 0px auto;
+}
+
+#contHead {
+	width: 900px;
+	margin: 0px auto;
+	padding: 20px 0px 0px 0px;
+}
+#contHeadLeft {
+	width: 700px;
+	float: left;
+}
+#contHeadRight {
+	width: 200px;
+	float: right;
+}
+#contMenu {
+	width: 900px;
+	margin: 0px auto;
+}
+
+#contBody {
+	width: 960px;
+	position: relative;
+}
+#contBodyTband {
+	width: 900px;
+	height: 30px;
+	margin: 0px 30px;
+	background: url(images/banddiv.png) no-repeat;
+}
+
+.contBodyRow {
+	width: 100%;
+	margin-top: 20px;
+	padding: 0px 30px;
+}
+.contBodyHalf {
+	width: calc((100% - 20px) / 2);
+	padding: 0px;
+	box-sizing: border-box;
+	float:left;
+}
+.marginLeft20 {
+	margin-left: 20px;
+}
+.contBodyCell {
+	width: calc(50% - 20px);
+	margin: 0px 40px;
+	padding: 8px 8px 48px 8px;
+	border: 1px solid #00155E;
+	border-radius: 4px;
+	box-sizing: border-box;
+	background: url(images/arc.gif) repeat-x white;
+	background-position: 0px bottom;
+	float: left;
+	position: relative;
+	z-index: 0;
+}
+.contBodyRowCell {
+	width: calc(100% - 60px);
+	margin: 10px 30px 0px 30px;
+	padding: 16px 16px 48px 16px;
+	border: 1px solid #00155E;
+	border-radius: 4px;
+	box-sizing: border-box;
+	background: url(images/arc.gif) repeat-x white;
+	background-position: 0px bottom;
+	position: relative;
+	z-index: 0;
+}
+.contBodyRowCellS {
+	width: calc(100% - 60px);
+	margin: 10px 30px 0px 30px;
+	padding: 32px 32px 48px 32px;
+	border: 1px solid #00155E;
+	border-radius: 4px;
+	box-sizing: border-box;
+	background: url(images/arc.gif) repeat-x white;
+	background-position: 0px bottom;
+	position: relative;
+	z-index: 0;
+}
+.contTableCmnt {
+	width: calc(100% -60px);
+	margin: 0px 30px;
+	padding: 0px 8px 3px 0px;
+	box-sizing: border-box;
+	text-align: right;
+}
+
+#contFoot {
+	width: 100%;
+	margin-top: 30px !important;
+	margin-bottom: 20px;
+	padding 8px auto;
+	background-color: #000000;
+}
+#contFootMenu {
+	width: 860px;
+	margin: 0px auto;
+	background-color: #000000;
+}
+#contFootMenuL {
+	width: 560px;
+	padding:20px 0px;
+	float: left;
+	color: white;
+	font-size: 12px;
+}
+#contFootMenuL > * {
+	color: white;
+	font-size: 12px;
+	text-decoration: none;
+}
+#contFootMenuR {
+	width: 300px;
+	padding:20px 0px;
+	float: right;
+	color: white;
+	font-size: 12px;
+	text-align: right;
+}
+.dropshadow {
+	box-shadow: 4px 4px rgba(0, 0, 0, 0.3);
+}
+#breadCrumb {
+	width: 900px;
+	margin: 10px 30px;
+	color: #222;
+	font-size: 14px;
+	font-weight: 600;
+}
+.breadcrumblink {
+	color: black;
+	cursor: pointer;
+	text-decoration: none;
+}
+.breadcrumblink:hover {
+	color: black;
+	cursor: pointer;
+	text-decoration: none;
+}
+#contMainImage {
+	width: 900px;
+	height: 312px;
+	margin: 0px 30px;
+	overflow: hidden;
+	position: relative;
+}
+#contMainImage img {
+	position: absolute;
+	top: -1px;
+	z-index: 0;
+}
+
+.contImage {
+	width: 900px;
+	height:200px;
+	margin: 10px 30px;
+	border: 1px solid #00155E;
+	border-radius: 8px;
+	padding: 80px 20px;
+	box-sizing: border-box;
+	color: transparent;
+	font-size: 36px;
+	font-weight: 700;
+	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	line-height: 1em;
+	letter-spacing: 5px;
+}
+#contImageInfo {
+	background: url(images/imageinfo.png) no-repeat 0px 0px;
+	background-size: 100% auto;
+}
+#contImageMaterial {
+	background: url(images/imagematerial.png) no-repeat 0px 0px;
+	background-size: 100% auto;
+}
+#contImageProduct {
+	background: url(images/imageproduct.png) no-repeat 0px 0px;
+	background-size: 100% auto;
+}
+#contImageBussiness {
+	background: url(images/imagebussiness.png) no-repeat 0px 0px;
+	background-size: 100% auto;
+}
+#contImageStockNitro {
+	background: url(images/imagenitro.png) no-repeat 0px 0px;
+	background-size: 100% auto;
+}
+#contImageStockBane {
+	background: url(images/imagebane.png) no-repeat 0px 0px;
+	background-size: 100% auto;
+}
+#contImageLink {
+	background: url(images/imagelink.png) no-repeat 0px 0px;
+	background-size: 100% auto;
+}
+#contImageStock {
+	background: url(images/imagestock.png) no-repeat 0px 0px;
+	background-size: 100% auto;
+}
+
+#jcurtain {
+	width: 1144px;
+	height: 412px;
+	position: absolute;
+	left: calc(-122px + 30px);
+	top: -12px;
+	z-index: 2;
+}
+
+h1.corpname, h1.corpname > * {
+	color: #00155E;
+	font-size: 36px;
+	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	text-decoration: none;
+}
+h1.corpname:hover,h1.corpname > *:hover {
+	color: #00155E;
+	text-decoration: none;
+}
+h3.subtitle {
+	color: #4A4A9C;
+	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+}
+h4.subtitle {
+	color: #666;
+	line-height: 1.6em;
+}
+.headmarkDiv {
+	width: 70px;
+	float:left;
+}
+.subtitle2lines {
+	 width: 400px;
+	 line-height: 1.1em;
+}
+ul#mainMenu {
+	margin: 0px 0px 0px 0px;
+	list-style: none;
+	z-index: 1;
+}
+#mainMenu > li,#mainMenu > a > li {
+	height: 50px;
+	float: left;
+	cursor: pointer;
+}
+.menu_information {
+	width: 224px;
+	border-right: 1px solid white;
+	background: url(images/menu_information.jpg) transparent no-repeat top left;
+}
+.menu_information:hover {
+	background: url(images/menu_information_hover.jpg) transparent no-repeat top left;
+}
+.menu_product {
+	width: 224px;
+	border-right: 1px solid white;
+	background: url(images/menu_product.jpg) transparent no-repeat top left;
+}
+.menu_product:hover {
+	background: url(images/menu_product_hover.jpg) transparent no-repeat top left;
+}
+.menu_material {
+	width: 224px;
+	border-right: 1px solid white;
+	background: url(images/menu_material.jpg) transparent no-repeat top left;
+}
+.menu_material:hover {
+	background: url(images/menu_material_hover.jpg) transparent no-repeat top left;
+}
+.menu_link {
+	width: 224px;
+	background: url(images/menu_link.jpg) transparent no-repeat top left;
+}
+.menu_link:hover {
+	background: url(images/menu_link_hover.jpg) transparent no-repeat top left;
+}
+
+.marginTop8 {
+	margin-top: 8px;
+}
+.marginTop24 {
+	margin-top: 24px;
+}
+.marginTop40 {
+	margin-top: 40px;
+}
+.marginBottom40 {
+	margin-bottom: 40px;
+}
+.marginBottom200 {
+	margin-bottom: 200px;
+}
+.divisionLine{
+	width: calc(100% - 16px);
+	height: 20px;
+	background: url(images/line.gif) no-repeat;
+	background-size: 100% 20px;
+}
+.cellText {
+	color: #666666;
+	font-size: 16px;
+	font-weight: 600;
+}
+.cellTextB {
+	color: #666666;
+	font-size: 24px;
+	font-weight: 600;
+}
+.cellTextTransparent {
+	color: transparent !important;
+	font-size: 0%;
+}
+.rubyText{
+	font-size: 10px;
+}
+.chitkaman {
+	width: 180px;
+	height: 180px;
+	top: -10px;
+	right: 0px;
+	position:absolute;
+	z-index: 2;
+	background: url(images/chitka.png) no-repeat;
+	background-size: auto 100%;
+}
+.chitkaman:hover {
+	width: 220px;
+	height: 220px;
+	top: -20px;
+	right: 10px;
+	position:absolute;
+	z-index: 2;
+	background: url(images/chitka_on.png) no-repeat;
+	background-size: 100% auto;
+}
+
+
+.tblSubtitle {
+	width: 100%;
+	border: 1px solid #444444;
+	border-radius: 6px;
+	border-collapse: separate;
+	box-sizing: border-box;
+	margin-bottom: 16px;
+}
+.tblSpec {
+	width: 100%;
+	border: 1px solid #444444;
+	border-radius: 6px;
+	border-collapse: separate;
+	box-sizing: border-box;
+	margin-bottom: 16px;
+}
+.tblStock {
+	width: 100%;
+	border: 1px solid #444444;
+	border-radius: 6px;
+	border-collapse: separate;
+	box-sizing: border-box;
+	margin-bottom: 16px;
+}
+.tblCell50 {
+	width: 50%;
+	padding: 6px;
+	border-right: 1px solid #444444;
+	border-top: 1px solid #444444;
+	box-sizing: border-box;
+}
+.tblCell50t {
+	width: 50%;
+	padding: 6px;
+	border-right: 1px solid #444444;
+	box-sizing: border-box;
+}
+.tblCell50r {
+	width: 50%;
+	padding: 6px;
+	border-top: 1px solid #444444;
+	box-sizing: border-box;
+}
+.tblCell50rt {
+	width: 50%;
+	padding: 6px;
+}
+.tblCell40 {
+	width: 40%;
+	border-right: 1px solid #444444;
+	border-top: 1px solid #444444;
+	box-sizing: border-box;
+}
+.tblCell40t {
+	width: 40%;
+	border-right: 1px solid #444444;
+	box-sizing: border-box;
+}
+.tblCell40r {
+	width: 40%;
+	border-right: 1px solid #444444;
+	box-sizing: border-box;
+}
+.tblCell40rt {
+	width: 40%;
+}
+.tblCell35 {
+	width: 35%;
+	padding: 12px;
+	border-right: 1px solid #444444;
+	border-top: 1px solid #444444;
+	box-sizing: border-box;
+}
+.tblCell35t {
+	width: 35%;
+	padding: 12px;
+	border-right: 1px solid #444444;
+	box-sizing: border-box;
+}
+.tblCell35r {
+	width: 35%;
+	padding: 12px;
+}
+.tblCell35rt {
+	width: 35%;
+	padding: 12px;
+	border-top: 1px solid #444444;
+	box-sizing: border-box;
+}
+.tblCell20 {
+	width: 20%;
+	border-right: 1px solid #444444;
+	border-top: 1px solid #444444;
+	box-sizing: border-box;
+}
+.tblCell20t {
+	width: 20%;
+	border-right: 1px solid #444444;
+	box-sizing: border-box;
+}
+.tblCell20r {
+	width: 20%;
+	border-right: 1px solid #444444;
+	box-sizing: border-box;
+}
+.tblCell20rt {
+	width: 20%;
+}
+.tblCell15 {
+	width: 15%;
+	border-right: 1px solid #444444;
+	border-top: 1px solid #444444;
+	box-sizing: border-box;
+}
+.tblCell15t {
+	width: 15%;
+	border-right: 1px solid #444444;
+	box-sizing: border-box;
+}
+.tblCell15r {
+	width: 15%;
+	border-right: 1px solid #444444;
+	box-sizing: border-box;
+}
+.tblCell15rt {
+	width: 15%;
+}
+.tblCell10 {
+	width: 10%;
+	padding: 6px;
+	border-right: 1px solid #444444;
+	border-top: 1px solid #444444;
+	box-sizing: border-box;
+}
+.tblCell10t {
+	width: 10%;
+	padding: 6px;
+	border-right: 1px solid #444444;
+	box-sizing: border-box;
+}
+.tblCell10r {
+	width: 10%;
+	padding: 6px;
+	border-top: 1px solid #444444;
+	box-sizing: border-box;
+}
+.tblCell10rt {
+	width: 10%;
+	padding: 6px;
+}
+.tblStockR1 {
+	width: 15%;
+	border-top: 1px solid #444444;
+	border-right: 1px solid #444444;
+	box-sizing: border-box;
+}
+.tblStockR2 {
+	width: 20%;
+	border-top: 1px solid #444444;
+	border-right: 1px solid #444444;
+	box-sizing: border-box;
+}
+.tblStockR3 {
+	width: 20%;
+	border-top: 1px solid #444444;
+	border-right: 1px solid #444444;
+	box-sizing: border-box;
+}
+.tblStockR4 {
+	width: 15%;
+	border-top: 1px solid #444444;
+	border-right: 1px solid #444444;
+	box-sizing: border-box;
+}
+.tblStockR5 {
+	width: 15%;
+	border-top: 1px solid #444444;
+	border-right: 1px solid #444444;
+	box-sizing: border-box;
+}
+.tblStockR6 {
+	width: 15%;
+	border-top: 1px solid #444444;
+	box-sizing: border-box;
+}
+.borderTopNone {
+	border-top: none !important;
+}
+.tblTextProduct {
+	font-size: 56px;
+	font-weight: 500;
+	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	line-height: 1em;
+	text-align: center;
+}
+.tblTextExp {
+	font-size: 11px;
+	line-height: 1.2em;
+}
+.tblTextRTitle {
+	font-size: 14px;
+	font-weight: 700;
+	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	letter-spacing: 0px;
+	background-color: #FFF200;
+}
+.tblTextCTitle {
+	font-size: 14px;
+	font-weight: 700;
+	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	background-color: #D1D3D4;
+}
+.tblStockTextHead {
+	font-size: 14px;
+	font-weight: 700;
+	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	background-color: #D1D3D4;
+}
+table.tblSpec > *, table.tblStock > * {
+	text-align: center;
+	vertical-align: middle;
+}
+
+#imgChitkamanProf {
+	width: 100%;
+	max-width: 1600px;
+	min-width: 480px;
+	height: auto;
+}
+
+.clearBoth {
+	clear: both;
+}
+
+.center {
+	text-align: center;
+}
+
+#btninquiry {
+	width: 198px;
+	height: 31px;
+	background: url(images/btninquiry.png) transparent no-repeat top left;
+}
+#btninquiry:hover {
+	background: url(images/btninquiry_hover.png) transparent no-repeat top left;
+}
+#inputsearch {
+	width: 145px;
+	height: 19px;
+	font-size: 12px;
+	padding: 3px;
+	margin-bottom: 0px !important;
+}
+#inquiry {
+	cursor: pointer;
+}
+
+.contBodyCustomF {
+	width: 934px;
+	margin: 0px 13px;
+	padding: 0px;
+	box-sizing: border-box;
+	float: left;
+	position: relative;
+	z-index: 0;
+	overflow: hidden;
+}
+.contBodyCustomL {
+	width: 450px;
+	margin: 0px 0px;
+	box-sizing: border-box;
+	float: left;
+	position: relative;
+	z-index: 0;
+}
+.contBodyCustomR {
+	width: 430px;
+	margin: 0px 0px 0px 20px;
+	box-sizing: border-box;
+	float: left;
+	position: relative;
+	z-index: 0;
+}
+.contCustomAddress {
+	height: 400px;
+	padding: 0px 8px 48px 8px;
+	background: url(images/top_address.png) transparent no-repeat top left;
+	background-size: 100% auto;
+}
+.contCustomTopics {
+	height: 200px;
+	background: url(images/top_topics.png) transparent no-repeat top left;
+	background-size: 100% auto;
+}
+.contCustomChitkaman {
+	margin-top: 20px;
+	height: 180px;
+	background: url(images/top_chitkaman.png) transparent no-repeat top left;
+	background-size: 100% auto;
+}
+
+address {
+	width: 100%;
+	height: 185px !important;
+	color: transparent;
+}
+
+#GoogleMap {
+	width: calc(100% - 30px);
+	height: 150px;
+	margin: 0px 15px;
+}
+.linktomap, .linktomap:hover {
+	text-decoration: none;
+}
+.links, .links:hover {
+	text-decoration: none;
+}
+
+.contentProduct {
+	height: 1534px;
+	background: url(images/product_image1.png) transparent no-repeat top left;
+}
+.contentMaterial {
+	height: 1068px;
+	background: url(images/material_image1.png) transparent no-repeat top left;
+}
+.contentInformation {
+	height: 1068px;
+	background: url(images/information_image1.png) transparent no-repeat top left;
+}
+.contentLink {
+	height: 1068px;
+	background: url(images/link_image1.png) transparent no-repeat top left;
+	position: relative;
+	z-index: 0;
+}
+#linkHottaHagane {
+	width: 96px;
+	height: 24px;
+	position: absolute;
+	left: 90px;
+	top: 425px;
+	z-index: 1;
+}
+	
+#locationNitro {
+	position: absolute;
+	left: 198px;
+	top: 33px;
+	z-index: 1;
+}
+#locationBane {
+	position: absolute;
+	left: 198px;
+	top: 343px;
+	z-index: 1;
+}
+
+#chitkamanProf:hover {
+	cursor: pointer;
+}

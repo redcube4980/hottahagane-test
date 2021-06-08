@@ -1,0 +1,40 @@
+@charset "utf-8";
+
+/* module.css
+------------------------------------------ */
+
+/* general
+------------------------------------------ */
+dl,
+ol,
+table,
+ul,
+.enc01,
+.enc02,
+.enc03,
+.enc04,
+.enc05,
+.enc06,
+.enc07,
+.enc08,
+.enc09,
+.aHeights,
+.lStripes,
+.noSpace,
+.nthChild{visibility:hidden;}
+
+
+
+
+/* clearFix
+------------------------------------------ */
+.clearFix{zoom:100%;}
+.clearFix:after{display:block;clear:both;height:0px;content:url('data:image/gif;base64,R0lGODlhAQABAIAAAAAAAAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==');}
+#OP .clearFix:after{content:'';}
+/* \*//*/ .clearFix{overflow:hidden;} /* */
+@media print{
+#IE08 .clearFix:after,
+#FF .clearFix:after{display:table;}
+}
+.zindex{
+	z-index:10000px;}

@@ -1,0 +1,42 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="ja">
+<head>
+<meta http-equiv="content-type" content="text/html;charset=utf-8">
+<meta http-equiv="content-script-type" content="text/javascript">
+<meta http-equiv="content-style-type" content="text/css">
+<meta http-equiv="imagetoolbar" content="no">
+<meta name="description" content="時代のニーズに応える含ニッケル鋼のスペシャリスト、堀田ハガネ。調達から加工、流通まで「まかせて良かった」の笑顔のために、価値ある鋼をお届けいたします。">
+<meta name="keywords" content="SNC415,SNC631,SNC815,SNCM220H,SNCM420H,SNCM220,SNCM420,SNCM439,SNCM447,SNCM616,SNCM630,SNCM815,特殊鋼,ステンレス鋼,堀田ハガネ">
+<title>ネットワーク | 株式会社 堀田ハガネ</title>
+<link rel="stylesheet" href="/common/css/import.css" type="text/css" media="screen,print">
+<link rel="stylesheet" href="css/network.css" type="text/css" media="screen,print">
+<script type="text/javascript" src="/common/js/common.js"></script>
+</head>
+<body>
+<div id="TOP">
+<!--#include virtual="/common/ssi/mod_header.ssi" -->
+<div id="BODY">
+<div class="detailArea">
+<div class="titleSec">
+<h1><img src="img/network/title.jpg" width="399" height="59" alt="ネットワーク　多様化する時代のニーズに応える充実したネットワーク"></h1>
+<!-- /titleSec --></div>
+
+
+
+<div class="listSec">
+<ul>
+<li><a href="http://www.zentokkyo.or.jp/" target="_blank">社団法人　全日本特殊鋼流通協会</a></li>
+<li><a href="http://www.kawamoto-kozai.co.jp/" target="_blank">川本鋼材株式会社</a></li>
+<li><a href="http://hotta-hagane.here2.click//matsubarahagane/" target="_blank">松原鋼商店</a></li>
+</ul>
+<!-- /listSec --></div>
+
+
+
+<p class="pageTop"><span><a href="#TOP">ページトップへ戻る</a></span></p>
+<!-- /detailArea --></div>
+<!-- /BODY --></div>
+<!--#include virtual="/common/ssi/mod_footer.ssi" -->
+<!-- /TOP --></div>
+</body>
+</html>

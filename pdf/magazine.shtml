@@ -1,0 +1,103 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="ja">
+<head>
+<meta http-equiv="content-type" content="text/html;charset=utf-8">
+<meta http-equiv="content-script-type" content="text/javascript">
+<meta http-equiv="content-style-type" content="text/css">
+<meta http-equiv="imagetoolbar" content="no">
+<meta name="description" content="時代のニーズに応える含ニッケル鋼のスペシャリスト、堀田ハガネ。調達から加工、流通まで「まかせて良かった」の笑顔のために、価値ある鋼をお届けいたします。">
+<meta name="keywords" content="SNC415,SNC631,SNC815,SNCM220H,SNCM420H,SNCM220,SNCM420,SNCM439,SNCM447,SNCM616,SNCM630,SNCM815,特殊鋼,ステンレス鋼,堀田ハガネ">
+<title>MAGAZINE | 株式会社 堀田ハガネ</title>
+<link rel="stylesheet" href="/common/css/import.css" type="text/css" media="screen,print">
+<link rel="stylesheet" href="css/topics.css" type="text/css" media="screen,print">
+<link rel="stylesheet" href="colorbox/colorbox.css" />
+<link rel="stylesheet" href="css/gun.css" type="text/css" media="screen,print">
+<script type="text/javascript" src="/common/js/common.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<script src="colorbox/jquery.colorbox.js"></script>
+<script>
+$(document).ready(function(){
+//Examples of how to assign the ColorBox event to elements
+$(".inline").colorbox({inline:true, contentWidth:"880px", fitContentsHeight:"false"});
+});
+</script>
+</head>
+<body>
+<div id="TOP">
+<!--#include virtual="/common/ssi/mod_header.ssi" -->
+<div id="BODY">
+<div class="detailArea">
+<div class="titleSec">
+<h1><img src="img/topics/title_mz.jpg" width="197" height="59" alt="magazine"></h1>
+<!-- /titleSec --></div>
+<div class="listSec">
+<ul>
+<li><dl><dt>2020.04.17</dt><dd><a href="/pdf/magazine09.pdf" target="_blank">ときどき通信Vol.9</a></dd></dl></li>
+<li><dl><dt>2020.02.20</dt><dd><a href="/pdf/magazine08.pdf" target="_blank">ときどき通信Vol.8</a></dd></dl></li>
+<li><dl><dt>2020.01.07</dt><dd><a href="/pdf/magazine07.pdf" target="_blank">ときどき通信Vol.7</a></dd></dl></li>
+<li><dl><dt>2019.12.10</dt><dd><a href="/pdf/magazine06.pdf" target="_blank">ときどき通信Vol.6</a></dd></dl></li>
+<li><dl><dt>2019.09.19</dt><dd><a href="/pdf/magazine05.pdf" target="_blank">ときどき通信Vol.5</a></dd></dl></li>
+<li><dl><dt>2019.07.10</dt><dd><a href="/pdf/magazine04.pdf" target="_blank">ときどき通信Vol.4</a></dd></dl></li>
+<li><dl><dt>2019.05.21</dt><dd><a href="/pdf/magazine03.pdf" target="_blank">ときどき通信Vol.3</a></dd></dl></li>
+<li><dl><dt>2019.03.25</dt><dd><a href="/pdf/magazine02.pdf" target="_blank">ときどき通信Vol.2</a></dd></dl></li>
+<li><dl><dt>2019.02.20</dt><dd><a href="/pdf/magazine01.pdf" target="_blank">ときどき通信Vol.1</a></dd></dl></li>
+</ul>
+<!-- /listSec --></div>
+
+
+
+<p class="pageTop"><span><a href="#TOP">ページトップへ戻る</a></span></p>
+<!-- /detailArea --></div>
+<!-- /BODY --></div>
+<!--#include virtual="/common/ssi/mod_footer.ssi" -->
+<!-- /TOP --></div>
+
+
+<!-- ▼▼▼This contains the hidden content for inline calls▼▼▼-->
+<div style='display:none'>
+<div id='inline_content02' style='padding:10px; background:#fff;'>
+<div id="gun_bg">
+	<img src="/img/topics/201507_topics_img.jpg" width="880">
+</div>
+</div>
+</div>
+
+
+<!-- ▼▼▼This contains the hidden content for inline calls▼▼▼-->
+<div style='display:none'>
+<div id='inline_content' style='padding:10px; background:#fff;'>
+<div id="gun_bg">
+<div id="gun_tit">無敵鋼人！ガンニッケルマン</div>
+<div id="gun_prof">
+<div class="gun_01">
+<div class="bl_txt fl">身　長　　</div>129.3㎝
+<br clear="all"><br />
+<div class="bl_txt fl">体　重　　</div>607.6㎏
+<br clear="all"><br />
+<div class="bl_txt fl">素　材　　</div>含ニッケル合金製(SNCM/SNC/SCM/SNB/ステンレス)
+<br clear="all"><br />
+<div class="bl_txt fl">生年月日　</div>2003年4月17日
+</div>
+<br clear="all"><br />
+<div class="bl_txt"><span class="txt_20">●</span>性格</div>
+どんな苛酷な状況にも耐える鋼の精神と肉体の持ち主。<br />
+強くて頼れる存在だが、繊細な一面も。世話好きで<br />
+ちょっぴりおせっかい。好きな言葉は「任せてよかった」<br /><br />
+<div class="bl_txt"><span class="txt_20">●</span>出身地</div>
+大阪市西区九条 町工場<br />
+『スクラップの山の中に埋もれている僕を<br />
+堀田社長が拾ってくれたんだ！』<br /><br />
+<div class="bl_txt"><span class="txt_20">●</span>特技</div>
+『いろんなものに変身するのが大の得意！<br />
+身の周りのボルトやナット、歯車などに変身して困った人を助けに行くよ！』
+</div>
+<div id="gun_print"><a href="colorbox/images/gun/gun.pdf" target="_blank">印刷する(PDF)</a></div>
+<div id="gun_foot">含ニッケル鋼のスペシャリスト、堀田ハガネのヒミツをガンニッケルマンが大解剖！！乞うご期待！
+</div>
+</div>
+
+</div>
+</div>
+<!-- ▲▲▲This contains the hidden content for inline calls▲▲-->
+</body>
+</html>

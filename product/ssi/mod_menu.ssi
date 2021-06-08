@@ -1,0 +1,15 @@
+<div id="MENU">
+<h2 class="title tChip">製品情報</h2>
+
+<ul id="subMenu" class="tChip nthChild">
+<li><a href="/product/sncm-hadayaki01.shtml"><span>SNCM鋼 【肌焼鋼】</span></a></li>
+<li><a href="/product/sncm-strong.shtml"><span>SNCM鋼 【強靭鋼】</span></a></li>
+<li><a href="/product/snc-marubou.shtml"><span>SNC鋼 丸棒</span></a></li>
+<li><a href="/product/scm-marubou.shtml"><span>SCM鋼 丸棒</span></a></li>
+<li><a href="/product/snb-marubou.shtml"><span>SNB鋼 丸棒</span></a></li>
+<li><a href="/product/dense-bar.shtml"><span>デンスバー</span></a></li>
+<li><a href="/product/stainless.shtml"><span>ステンレス鋼</span></a></li>
+<li><a href="/product/kakou.shtml"><span>加工品</span></a></li>
+<li><a href="/product/sds.shtml"><span>安全データシート</span></a></li>
+</ul>
+<!-- /MENU --></div>
